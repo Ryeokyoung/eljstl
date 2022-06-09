@@ -16,11 +16,11 @@
 			int num = (int)request.getAttribute("num");
 			String str = (String)request.getAttribute("str");
 		%>
-		no = <%=userVo.getNo() %> <Br>
-		name = <%=userVo.getName() %> <Br>	
-		email = <%=userVo.getEmail() %> <Br>	
-		password = <%=userVo.getPassword() %> <Br>	
-		gender = <%=userVo.getGender() %> <Br>
+		번호 no = <%=userVo.getNo() %> <Br>
+		이름 name = <%=userVo.getName() %> <Br>	
+		이메일 email = <%=userVo.getEmail() %> <Br>	
+		패스워드 password = <%=userVo.getPassword() %> <Br>	
+		성별 gender = <%=userVo.getGender() %> <Br>
 		<br>
 		num = <%=num %><br>
 		str = <%=str %><br>
