@@ -12,6 +12,7 @@
 		<h3>연산자</h3>
 		
 		산술형(+): \${5+2} --> ${5+2} <br>  // 7
+		산술형(+): \${5} + ${2} --> ${5} + ${2}<br>  // 5+2 
 		산술형(-): \${5-2} --> ${5-2} <br>  // 3
 		산술형(*): \${5*2} --> ${5*2} <br>  // 10
 		
@@ -65,7 +66,7 @@
 		
 		null 검사: \${str} --> ${str} <br>  // nothing
 		null 검사: \${empty str} --> ${empty str} <br> // t 
-		null 검사: \${reqVal} --> ${reqVal} <br> //abcdefgh
+		null 검사: \${reqVal} --> ${reqVal} <br> //값이 있으면 찍힘 abcdefgh
 		
 		
 </body>

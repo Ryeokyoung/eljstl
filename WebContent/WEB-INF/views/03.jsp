@@ -18,7 +18,8 @@
 			int num1 = Integer.parseInt(request.getParameter("num1"));
 			int num2 = Integer.parseInt(request.getParameter("num2"));
 		%>
-		//쓰는영역 
+	
+		//쓰는영역	
 		id=<%=id%> <br>
 		password=<%=password%> <br>
 		name=<%=name%> <br>
@@ -26,9 +27,11 @@
 		num2=<%=num2%> <br>
 		sum = <%=num1 + num2%> <br>
 		
+		
+		
 		<h3>el parameter 꺼내쓰기</h3>
 		
-		id=${param.id} <br>
+		id=${param.id} <br>//파라미터 값 꺼내 쓸 때는 요렇게 
 		password=${param.password} <br>
 		name=${param.name} <br>
 		num1=${param.num1} <br>
