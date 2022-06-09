@@ -9,7 +9,7 @@
 <body>
 		<h1>el, jstl</h1>
 		<h2>el</h2>
-		<h3>파라미터</h3>
+		<h3>파라미터(자바문법 파라미터 꺼내쓰기)</h3>
 		
 		<%
 			String id = request.getParameter("id");
@@ -18,7 +18,7 @@
 			int num1 = Integer.parseInt(request.getParameter("num1"));
 			int num2 = Integer.parseInt(request.getParameter("num2"));
 		%>
-		
+		//쓰는영역 
 		id=<%=id%> <br>
 		password=<%=password%> <br>
 		name=<%=name%> <br>
